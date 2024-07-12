@@ -7,8 +7,8 @@ public class ConceitosSwitch {
 
         var sc = new Scanner(System.in);
         System.out.println("Digite seu Conceito");
-        var copo = sc.next();
-        switch (copo) {
+        var nota = sc.next();
+        switch (nota) {
             case "A" -> System.out.println("Sua Nota é 100");
             case  "B" -> System.out.println("Sua Nota é 90");
             case "C" -> System.out.println("Sua Nota é 80");
