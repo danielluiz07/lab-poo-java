@@ -9,13 +9,11 @@ public class Questao02 {
         int num = sc.nextInt();
 
         int contagem = 0;
-        int i = 1;
 
-        while (i <= num) { 
-            if(num % i == 0){
+        for (int i = 1; i <= num; i++) { 
+            if (num % i == 0) {
                 contagem++;
             }
-            i++;
         }
 
         System.out.println("O número pode ser dividido por " + contagem + " números");
