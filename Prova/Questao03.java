@@ -41,7 +41,7 @@ public class Questao03 {
             divisao = num1 / num2;
             System.out.println(num1 + " * " + num2 + " = " + divisao);
         }else{
-            System.out.println("danieúNúmero de escolha Indiponível");
+            System.out.println("Número de escolha Indiponível");
         }
         sc.close();
     }
