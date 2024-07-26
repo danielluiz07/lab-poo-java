@@ -7,14 +7,14 @@ public class Jogo {
 
         var sc = new Scanner(System.in);
 
-        int primeiro = (int) (Math.random() * 100) + 1;
+        int numGerado = (int) (Math.random() * 100) + 1;
         int numero;
 
         System.out.println("Digite um número entre 1 e 100: ");
         numero = sc.nextInt();
 
-        while (numero != primeiro) {
-            if (numero > primeiro) {
+        while (numero != numGerado) {
+            if (numero > numGerado) {
                 System.out.println("Digite um número menor!");
             } else {
                 System.out.println("Digite um número maior!");
