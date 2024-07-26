@@ -36,12 +36,12 @@ public class Questao03 {
             System.out.println(num1 + " - " + num2 + " = " + subtracao);
         }else if(escolha == 3){
             multiplicacao = num1 * num2;
-            System.out.println(num1 + " / " + num2 + " = " + multiplicacao);
+            System.out.println(num1 + " * " + num2 + " = " + multiplicacao);
         }else if(escolha == 4){
             divisao = num1 / num2;
-            System.out.println(num1 + " * " + num2 + " = " + divisao);
+            System.out.println(num1 + " / " + num2 + " = " + divisao);
         }else{
-            System.out.println("Número de escolha Indiponível");
+            System.out.println("Infelizmente sua escolha nao é Válida!");
         }
         sc.close();
     }

@@ -9,7 +9,7 @@ public class Questao01 {
         int quantidade = sc.nextInt();
 
         int maiorNumero = 0; 
-        int contagemMaior = 0;
+        int contagem = 0;
 
         for (int i = 0; i < quantidade; i++) {
             System.out.print("Digite o número : ");
@@ -17,14 +17,14 @@ public class Questao01 {
             
             if (numero > maiorNumero) {
                 maiorNumero = numero;
-                contagemMaior = 1; 
+                contagem = 1; 
             } else if (numero == maiorNumero) {
-                contagemMaior++; 
+                contagem++; 
             }
         }
 
         System.out.println("O maior número é " + maiorNumero);
-        System.out.println("Quantidade de vezes que o maior número foi lido: " + contagemMaior);
+        System.out.println("Quantidade de vezes que o maior número foi lido: " + contagem);
         
         sc.close();
     }
